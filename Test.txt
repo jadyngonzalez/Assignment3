@@ -1,0 +1,10 @@
+int main()
+{
+	cout << "Hello World!" << endl;
+	return 0;
+	pseudoarr = new arr[10]
+	for(i = 0; i < 10; ++i)
+	{
+		pseudoarr[i = 1];
+	
+}
