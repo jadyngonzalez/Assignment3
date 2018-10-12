@@ -51,7 +51,6 @@ void SyntaxCheck::check()
           {
             delimiters.push(line[i]);
           }
-            //cases where the syntax is good
           else if ((delimiters.peek() == '(') && (line[i] == ')')) //peeks top if match found pops it
           {
             delimiters.pop();
@@ -108,7 +107,7 @@ void SyntaxCheck::check()
   }
 }
 
-void SyntaxCheck::cont()
+void SyntaxCheck::cont() //continues if user enters 'Y'
 {
   cout << "Enter the next file name:" << endl;
   string next;
